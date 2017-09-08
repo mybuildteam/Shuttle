@@ -1,5 +1,6 @@
+@testable import Shuttle
 import XCTest
-@testable import ShuttleFramework
+
 
 class BuildTests: XCTestCase {
     func testGetBuildByID() {

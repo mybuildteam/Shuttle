@@ -27,5 +27,6 @@ let package = Package(
         .testTarget(name: "TunesTests", dependencies: ["Tunes", "TestSupport"]), // "Quick", "Nimble"]),
         .testTarget(name: "PortalTests", dependencies: ["Portal", "TestSupport"]), // "Quick", "Nimble"]),
         .testTarget(name: "CoreTests", dependencies: ["Core", "TestSupport"]), // "Quick", "Nimble"]),
-    ]
+    ],
+    swiftLanguageVersions: [3, 4]
 )

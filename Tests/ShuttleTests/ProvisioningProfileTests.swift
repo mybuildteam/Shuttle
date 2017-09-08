@@ -1,4 +1,4 @@
-@testable import ShuttleFramework
+@testable import Shuttle
 import XCTest
 
 class ProvisioningProfileTests: XCTestCase {

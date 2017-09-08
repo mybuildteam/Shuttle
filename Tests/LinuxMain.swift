@@ -3,16 +3,7 @@
 
 import XCTest
 
-@testable import AutobahnTests
-@testable import AutobahnFrameworkTests
 @testable import ShuttleTests
-@testable import ShuttleFrameworkTests
-
-extension AutobahnFrameworkTests {
-  static var allTests: [(String, (AutobahnFrameworkTests) -> () throws -> Void)] = [
-    ("testExample", testExample)
-  ]
-}
 
 extension BuildStateTests {
   static var allTests: [(String, (BuildStateTests) -> () throws -> Void)] = [
@@ -146,7 +137,6 @@ extension TwoStepAuthTests {
 }
 
 XCTMain([
-  testCase(AutobahnFrameworkTests.allTests),
   testCase(BuildStateTests.allTests),
   testCase(BuildTests.allTests),
   testCase(DecodableTests.allTests),
